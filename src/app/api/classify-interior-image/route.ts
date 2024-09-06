@@ -97,7 +97,6 @@ Provide your analysis in the following JSON format:
     "poorVentilation": boolean,
     "fireHazards": boolean,
     "trippingHazards": boolean,
-    "pestInfestation": boolean,
     "roofLeaks": boolean,
     "flooringDamage": boolean,
 
@@ -112,7 +111,6 @@ Provide your analysis in the following JSON format:
     "chemicalStorage": boolean,
     "fireHazards": boolean,
     "wildlifeAttractants": boolean,
-    "invasiveSpecies": boolean,
     "unsecuredGardenStructures": boolean,
     "poorFencing": boolean,
     "visiblePestInfestation": boolean
