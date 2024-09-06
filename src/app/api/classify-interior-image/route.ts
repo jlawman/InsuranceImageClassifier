@@ -102,7 +102,6 @@ Provide your analysis in the following JSON format:
     "flooringDamage": boolean,
 
     // Exterior features (only include if locationType is "exterior")
-    "largeTreesNearStructures": boolean,
     "unstableSlopeOrRetainingWall": boolean,
     "waterFeatures": boolean,
     "trippingHazards": boolean,
