@@ -16,7 +16,7 @@ import Image from 'next/image';
 
 export default function Home() {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
-  const [classificationResult, setClassificationResult] = useState<{ roomType: string, features: Record<string, boolean> } | null>(null);
+  const [classificationResult, setClassificationResult] = useState<{ locationType: string, spaceType: string, features: Record<string, boolean> } | null>(null);
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [selectedImageUrl, setSelectedImageUrl] = useState<string | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
