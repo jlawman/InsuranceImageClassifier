@@ -97,10 +97,12 @@ Provide your analysis in the following JSON format:
     "poorVentilation": boolean,
     "fireHazards": boolean,
     "trippingHazards": boolean,
+    "pestInfestation": boolean,
     "roofLeaks": boolean,
     "flooringDamage": boolean,
 
     // Exterior features (only include if locationType is "exterior")
+    "largeTreesNearStructures": boolean,
     "unstableSlopeOrRetainingWall": boolean,
     "waterFeatures": boolean,
     "trippingHazards": boolean,
@@ -111,6 +113,7 @@ Provide your analysis in the following JSON format:
     "chemicalStorage": boolean,
     "fireHazards": boolean,
     "wildlifeAttractants": boolean,
+    "invasiveSpecies": boolean,
     "unsecuredGardenStructures": boolean,
     "poorFencing": boolean,
     "visiblePestInfestation": boolean
@@ -122,7 +125,7 @@ Where "string" in "spaceType" is replaced by the identified type from the approp
 Analyze the provided image and return only the JSON output without any additional explanation or commentary.`;
 
     const response = await anthropic.messages.create({
-      model: 'claude-3-sonnet-20240229',
+      model: 'claude-3-5-sonnet-20240620',
       max_tokens: 1000,
       messages: [
         {
