@@ -124,7 +124,7 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className="text-4xl font-bold mb-8 text-indigo-800 dark:text-indigo-200"
         >
-          Insurance Property Image Classifier
+          Self-Inspection Image Classifier
         </motion.h1>
         <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}

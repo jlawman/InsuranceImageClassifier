@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Insurance Property Classifier",
+  title: "Self-Inspection Image Classifier",
   description: "Analyze and classify interior and exterior property images for insurance purposes",
 };
 
